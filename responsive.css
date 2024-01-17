@@ -1,0 +1,145 @@
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+  * {
+    max-width: 550px;
+    padding: 5px;
+  }
+
+  /* heading */
+  .heading {
+    flex-direction: column;
+  }
+
+  /* banner */
+  .banner-bg {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+      url(./Images/Group_13.png) center/cover no-repeat;
+    padding: 60px 0;
+    margin: 20px 0 50px 0;
+  }
+
+  .banner-content h1 {
+    font-size: 34px;
+  }
+
+  .banner-content-p {
+    width: 376px;
+    margin: 14px auto;
+    font-size: 14px;
+
+    line-height: 16pxpx;
+  }
+
+  .banner-selection {
+    flex-direction: column;
+  }
+
+  .banner-selection select {
+    width: 255px;
+  }
+  .banner-selection input {
+    width: 255px;
+  }
+  .banner-selection button {
+    width: 255px;
+  }
+
+  /* popular section */
+  .popular-tour {
+    flex-direction: column;
+  }
+
+  .popular-tour-text {
+    width: 400px;
+    font-size: 14px;
+  }
+
+  .popular-tour-text p {
+    padding: 16px 0;
+  }
+
+  .popular-tour-text ul li {
+    margin-left: 30px;
+
+    line-height: 16px;
+  }
+
+  .popular-tour-img img {
+    max-width: 400px;
+  }
+
+  /* choose your destination */
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    grid-gap: 5px;
+    margin: 48px 0 100px 0;
+  }
+
+  .item {
+    overflow: hidden;
+  }
+
+  .item img {
+    display: block;
+    width: 400px;
+    height: 200px;
+  }
+
+  /* Custom grid for specific rows and columns */
+  .item:nth-child(1) {
+    grid-column: 1/-1;
+  }
+  .item:nth-child(2) {
+    grid-column: 1/-1;
+  }
+
+  .item:nth-child(3) {
+    grid-column: 1/-1;
+  }
+  .item:nth-child(4) {
+    grid-column: 1/-1;
+  }
+  .item:nth-child(5) {
+    grid-column: 1/-1;
+  }
+  .item:nth-child(6) {
+    grid-column: 1/-1;
+  }
+  .item:nth-child(7) {
+    grid-column: 1/-1;
+  }
+
+  .choose-us-content {
+    flex-direction: column;
+  }
+
+  /*  summer vacation section for bonus part */
+
+  .destination-info {
+    flex-direction: column;
+    align-items: start;
+    width: 400px;
+    margin: 0 auto;
+  }
+  .destination-info img {
+    max-width: 400px;
+  }
+
+  .destination-info div {
+    flex: 1;
+    margin-right: 0;
+  }
+
+  .newsletter-bg {
+    flex-direction: column;
+  }
+
+  .footer-width {
+    width: 370px;
+  }
+}
